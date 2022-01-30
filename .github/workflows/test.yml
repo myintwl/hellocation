@@ -1,18 +1,16 @@
 name : Test yml
 
 on: push
-
-jobs: 
-  job1: 
-    name: First job1
+      
+  job1:
+    name: First job
     runs-on: ubuntu-latest
     steps: 
-    -uses: actions/checkout@v2
-      run: echo This is first Job
-      
+    - name: Run a one-line script
+      run: echo Hello, World!
   job2:
     name: Second job
     runs-on: ubuntu-latest
     steps: 
     - name: Run a one-line script
-      run: echo Hello, World!
+      run: echo This is second job
