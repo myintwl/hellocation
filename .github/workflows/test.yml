@@ -9,7 +9,7 @@ jobs:
     steps: 
     - uses: actions/checkout@v2
       
-    job2:
+  job2:
     name: Second job
     runs-on: windows-latest
     steps: 
