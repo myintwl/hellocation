@@ -1,13 +1,14 @@
 name : Test yml
 
 on: push
-      
+
   job1: 
     name: First job
     runs-on: ubuntu-latest
     steps: 
     - name: Run a one-line script
       run: echo Hello, World!
+      
   job2: 
     name: Second job
     runs-on: ubuntu-latest
