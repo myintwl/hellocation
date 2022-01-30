@@ -5,7 +5,7 @@ on: push
 jobs: 
   job1: 
     name: First job1
-    runs-on: ubuntu-test
+    runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v2
       
