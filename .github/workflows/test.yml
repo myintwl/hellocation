@@ -13,8 +13,8 @@ jobs:
 
   job2:
     name: Second job
+    needs: job1
     runs-on: ubuntu-latest
     steps: 
     - name: Run a one-line script
       run: echo This is second job
-        needs: job1
