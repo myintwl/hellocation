@@ -2,6 +2,8 @@ name : Test yml
 
 on: push
 
+jobs:
+
   job1:
     name: First job
     runs-on: ubuntu-latest
