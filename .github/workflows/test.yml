@@ -8,13 +8,13 @@ jobs:
       runs-on: ubuntu-test
       steps: 
       -uses: actions/checkout@v2
-      - name: step one
-      - name: step two
+        - name: step one
+        - name: step two
     job2:
       name: Second job
       runs-on: windows-latest
       steps: 
-      - name: Run a one-line script
+        - name: Run a one-line script
       run: echo Hello, world!
-      - name: step one
-      - name: step two
+        - name: step one
+        - name: step two
